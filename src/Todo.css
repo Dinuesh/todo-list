@@ -1,0 +1,44 @@
+.Todo{
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todoinput{
+    border: none;
+    outline: none;
+    width: 200px;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    color: red;
+}
+.todobtn{
+    border: none;
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    font:bold;
+    border-bottom-right-radius: 10px;
+}
+.list{
+    list-style: none;
+    
+}
+.delete_icon{
+    color: red;
+    font-family: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+.edit_icon{
+color:green;
+cursor: pointer;
+font-family: 20px;
+margin-left: 20px;
+}
